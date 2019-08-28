@@ -1,0 +1,120 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Trickle.c
+  SequenceNumber.c
+  RPL_Message.c
+  RPL_enum.c
+  RPL.c
+c:\users\upal\desktop\projects_v10.1.14\done\sinkhole_rpl\64bit\code\rpl\rpl.c(18): warning C4028: formal parameter 1 different from declaration
+  Neighbor.c
+  Malicious.c
+  DODAG.c
+  DIS.c
+  DIO.c
+  DAO.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\UPAL\Desktop\Projects_v10.1.14\Done\SINKHOLE_RPL\64bit\Code\RPL\..\Dll\RPL.dll) does not match the Linker's OutputFile property value (C:\Users\UPAL\Desktop\Projects_v10.1.14\Done\SINKHOLE_RPL\64bit\Code\Dll\libRPL.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(RPL) does not match the Linker's OutputFile property value (libRPL). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+DAO.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ..\Dll\RPL.lib and object ..\Dll\RPL.exp
+RPL.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+RPL_Message.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+SequenceNumber.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+DAO.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+DIS.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+DODAG.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+Neighbor.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+RPL_Message.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+SequenceNumber.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+DAO.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+DIS.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+DODAG.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+Neighbor.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+SequenceNumber.obj : error LNK2001: unresolved external symbol _IP_COPY
+DAO.obj : error LNK2001: unresolved external symbol _IP_COPY
+DODAG.obj : error LNK2001: unresolved external symbol _IP_COPY
+RPL.obj : error LNK2001: unresolved external symbol _IP_COPY
+RPL_Message.obj : error LNK2001: unresolved external symbol _IP_COPY
+RPL.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+RPL_Message.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Trickle.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+DAO.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+DIS.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+DODAG.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Neighbor.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Neighbor.obj : error LNK2001: unresolved external symbol _print_rpl_log
+DAO.obj : error LNK2001: unresolved external symbol _print_rpl_log
+DIO.obj : error LNK2001: unresolved external symbol _print_rpl_log
+DODAG.obj : error LNK2001: unresolved external symbol _print_rpl_log
+Malicious.obj : error LNK2001: unresolved external symbol _print_rpl_log
+DAO.obj : error LNK2019: unresolved external symbol _rpl_node_is_joined referenced in function _compute_dao_delay
+DIO.obj : error LNK2001: unresolved external symbol _rpl_node_is_joined
+RPL_Message.obj : error LNK2001: unresolved external symbol _rpl_node_is_joined
+Trickle.obj : error LNK2001: unresolved external symbol _rpl_node_is_joined
+DAO.obj : error LNK2019: unresolved external symbol _iptable_delete_by_route referenced in function _rpl_dao_route_timeout
+DAO.obj : error LNK2019: unresolved external symbol _iptable_add referenced in function _rpl_process_dao_msg
+DAO.obj : error LNK2019: unresolved external symbol _iptable_get_table_by_type referenced in function _rpl_dao_route_timeout
+SequenceNumber.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Trickle.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Malicious.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Neighbor.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+RPL.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+RPL_Message.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+DAO.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+DIO.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+DIS.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+DODAG.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Trickle.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+Malicious.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+Neighbor.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+RPL.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+RPL_Message.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+DAO.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+DIO.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+DIS.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+DODAG.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+DIO.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg referenced in function _get_preferred_dodag_dio_pdu
+RPL.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+RPL.obj : error LNK2001: unresolved external symbol _ReportError
+RPL_Message.obj : error LNK2001: unresolved external symbol _ReportError
+Trickle.obj : error LNK2001: unresolved external symbol _ReportError
+DIO.obj : error LNK2001: unresolved external symbol _ReportError
+DODAG.obj : error LNK2001: unresolved external symbol _ReportError
+Malicious.obj : error LNK2001: unresolved external symbol _ReportError
+Neighbor.obj : error LNK2001: unresolved external symbol _ReportError
+DIO.obj : error LNK2019: unresolved external symbol _rpl_node_is_root referenced in function _get_preferred_dodag_dio_pdu
+RPL_Message.obj : error LNK2001: unresolved external symbol _rpl_node_is_root
+SequenceNumber.obj : error LNK2001: unresolved external symbol _rpl_node_is_root
+Trickle.obj : error LNK2001: unresolved external symbol _rpl_node_is_root
+DIO.obj : error LNK2019: unresolved external symbol _rpl_node_is_poisoning referenced in function _get_preferred_dodag_dio_pdu
+RPL_Message.obj : error LNK2001: unresolved external symbol _rpl_node_is_poisoning
+Trickle.obj : error LNK2001: unresolved external symbol _rpl_node_is_poisoning
+DIO.obj : error LNK2019: unresolved external symbol _rpl_node_is_isolated referenced in function _rpl_process_dio_msg
+DIO.obj : error LNK2019: unresolved external symbol _rpl_delete_all_route referenced in function _start_dio_poisoning
+DODAG.obj : error LNK2001: unresolved external symbol _rpl_delete_all_route
+Neighbor.obj : error LNK2001: unresolved external symbol _rpl_delete_all_route
+RPL.obj : error LNK2001: unresolved external symbol _rpl_delete_all_route
+DODAG.obj : error LNK2019: unresolved external symbol _IP_FREE referenced in function _join_dodag_iteration
+RPL_Message.obj : error LNK2001: unresolved external symbol _IP_FREE
+DODAG.obj : error LNK2019: unresolved external symbol _fnDeleteEvent referenced in function _join_dodag_iteration
+Trickle.obj : error LNK2001: unresolved external symbol _fnDeleteEvent
+Neighbor.obj : error LNK2019: unresolved external symbol _fnpReAllocateMemory_dbg referenced in function _add_neighbor
+RPL_Message.obj : error LNK2001: unresolved external symbol _fnpReAllocateMemory_dbg
+SequenceNumber.obj : error LNK2001: unresolved external symbol _fnpReAllocateMemory_dbg
+Neighbor.obj : error LNK2019: unresolved external symbol _fn_NetSim_stack_get_link_quality referenced in function _compute_candidate_rank
+Neighbor.obj : error LNK2019: unresolved external symbol _rpl_add_route_to_parent referenced in function _choose_parents_and_siblings
+RPL.obj : error LNK2019: unresolved external symbol _get_global_root_info referenced in function _rpl_root_info_create
+RPL.obj : error LNK2019: unresolved external symbol _fn_NetSim_RPL_Init_F referenced in function _fn_NetSim_RPL_Init
+RPL.obj : error LNK2019: unresolved external symbol _fn_NetSim_RPL_Finish_F referenced in function _fn_NetSim_RPL_Finish
+RPL.obj : error LNK2019: unresolved external symbol _fn_NetSim_RPL_Configure_F referenced in function _fn_NetSim_RPL_Configure
+RPL.obj : error LNK2019: unresolved external symbol _fn_NetSim_RPL_FreePacket_F referenced in function _fn_NetSim_RPL_FreePacket
+RPL.obj : error LNK2019: unresolved external symbol _fn_NetSim_RPL_CopyPacket_F referenced in function _fn_NetSim_RPL_CopyPacket
+RPL_Message.obj : error LNK2019: unresolved external symbol _GET_BROADCAST_IP referenced in function _create_rpl_ctrl_msg
+RPL_Message.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_CreatePacket_dbg referenced in function _create_rpl_ctrl_msg
+RPL_Message.obj : error LNK2019: unresolved external symbol _fnGetPacketSize referenced in function _rpl_node_send_msg
+RPL_Message.obj : error LNK2019: unresolved external symbol _add_dest_to_packet referenced in function _create_rpl_ctrl_msg
+Trickle.obj : error LNK2019: unresolved external symbol _fn_NetSim_Utilities_GenerateRandomNo referenced in function _set_trickle_t_time
+Trickle.obj : error LNK2001: unresolved external symbol __imp__ldEventTime
+..\lib\MemoryBlock.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\IP_Addressing.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\lib\NetworkStack.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+..\Dll\libRPL.dll : fatal error LNK1120: 34 unresolved externals
